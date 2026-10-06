@@ -2,6 +2,7 @@
   "name": "ScoreMate",
   "short_name": "ScoreMate",
   "description": "紙の楽譜を撮影・管理する個人用ライブラリアプリ",
+  "lang": "ja-JP",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
