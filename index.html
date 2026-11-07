@@ -2088,6 +2088,7 @@ async function renderConcertAttachmentsSection(concertId, container = resultsEl)
   addVideoBtn.addEventListener('click', () => {
     const existingPanel = box.querySelector('.concert-video-input-panel');
     if (existingPanel) { existingPanel.remove(); return; }
+    window.open('https://www.youtube.com/results?search_query=' + encodeURIComponent(concert.name), '_blank');
     const panel = document.createElement('div');
     panel.className = 'concert-video-input-panel';
     panel.style.cssText = 'margin-top:8px;';
